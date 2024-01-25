@@ -7,15 +7,8 @@ public class PrzykladOptional {
 
     public static void main(String[] args) {
         String name = "Filemon";
-        Cat filemon = findCatByName(name);
-
-        if(filemon != null){
-            filemon.getName();
-            System.out.println();
-        }
-        else {
-            System.out.println("Nie znaleziono Kota");
-        }
+        Optional<Cat> filemon = findSecuredCatByName(name);
+        System.out.println(filemon.isPresent());
 
     }
 
@@ -23,5 +16,11 @@ public class PrzykladOptional {
     private static Cat findCatByName(String name){
         Cat cat = new Cat(name);
         return null;
+    }
+
+    private static Optional<Cat> findSecuredCatByName(String name){
+        Cat cat = new Cat(name);
+        return Optional.of(cat);
+
     }
 }
