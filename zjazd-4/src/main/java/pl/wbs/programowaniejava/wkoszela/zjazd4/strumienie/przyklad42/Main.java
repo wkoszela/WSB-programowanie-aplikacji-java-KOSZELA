@@ -24,14 +24,14 @@ public class Main {
             StringBuilder stringBuilder = new StringBuilder();
 
             int i = input.read();
-            while(i != -1) {
+            while (i != -1) {
                 stringBuilder.append((char) i);
                 i = input.read();
             }
 
             input.close();
             return Optional.of(stringBuilder.toString());
-        }  catch(Exception ex) {
+        } catch (Exception ex) {
             try {
                 if (input != null) {
                     input.close();
@@ -50,7 +50,7 @@ public class Main {
             byte[] array = content.getBytes();
             output.write(array);
             output.close();
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             try {
                 if (output != null) {
                     output.close();

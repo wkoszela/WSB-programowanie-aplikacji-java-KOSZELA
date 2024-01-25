@@ -29,7 +29,7 @@ public class Main {
             }
 
             return Optional.of(stringBuilder.toString());
-        } catch(Exception ex) {
+        } catch (Exception ex) {
             System.out.println("Reading failed: " + ex.getMessage());
         }
 

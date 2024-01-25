@@ -13,12 +13,12 @@ public class PrzykladOptional {
     }
 
 
-    private static Cat findCatByName(String name){
+    private static Cat findCatByName(String name) {
         Cat cat = new Cat(name);
         return null;
     }
 
-    private static Optional<Cat> findSecuredCatByName(String name){
+    private static Optional<Cat> findSecuredCatByName(String name) {
         Cat cat = new Cat(name);
         return Optional.of(cat);
 
