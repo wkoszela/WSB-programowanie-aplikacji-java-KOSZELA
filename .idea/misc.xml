@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/zadanie-25/example/pom.xml" />
+        <option value="$PROJECT_DIR$/zadanie-26/pom.xml" />
+        <option value="$PROJECT_DIR$/zadanie-27/pom.xml" />
+        <option value="$PROJECT_DIR$/zadanie-28/pom.xml" />
+        <option value="$PROJECT_DIR$/zadanie-29/pom.xml" />
+        <option value="$PROJECT_DIR$/zadanie-30/pom.xml" />
+        <option value="$PROJECT_DIR$/zadanie-31/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-49/line-counter/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-50/line-counter-extended/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-51/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-52/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-53/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-54/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-55/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-56/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-57/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-58/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-59/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-60/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-61/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-62/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-63/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-64/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-65/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-66/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-67/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-68/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-69/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-70/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-71/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-72/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-73/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-74/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-75/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-76/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-77/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-78/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-79/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-80/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-81/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-82/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-83/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-84/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-85/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-86/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-87/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-88/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-89/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-90/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-91/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-92/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-93/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-94/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-95/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-96/pom.xml" />
+        <option value="$PROJECT_DIR$/test-invoice/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-test/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-junit/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-gatling/pom.xml" />
+        <option value="$PROJECT_DIR$/wroclaw-mappings/pom.xml" />
+        <option value="$PROJECT_DIR$/przyklad-cucumber/pom.xml" />
+      </list>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

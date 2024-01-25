@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="zadanie-26" />
+        <module name="zadanie-29" />
+        <module name="zadanie-28" />
+        <module name="zadanie-27" />
+        <module name="przyklad-90" />
+        <module name="line-counter-extended" />
+        <module name="przyklad-cucumber" />
+        <module name="przyklad-88" />
+        <module name="przyklad-89" />
+        <module name="przyklad-test" />
+        <module name="przyklad-80" />
+        <module name="przyklad-81" />
+        <module name="przyklad-82" />
+        <module name="przyklad-83" />
+        <module name="przyklad-84" />
+        <module name="przyklad-85" />
+        <module name="przyklad-86" />
+        <module name="przyklad-87" />
+        <module name="wroclaw-mappings" />
+        <module name="zadanie-31" />
+        <module name="zadanie-30" />
+        <module name="przyklad-01" />
+        <module name="przyklad-55" />
+        <module name="przyklad-56" />
+        <module name="przyklad-57" />
+        <module name="przyklad-58" />
+        <module name="przyklad-59" />
+        <module name="przyklad-91" />
+        <module name="przyklad-92" />
+        <module name="przyklad-93" />
+        <module name="przyklad-94" />
+        <module name="przyklad-51" />
+        <module name="przyklad-95" />
+        <module name="przyklad-52" />
+        <module name="przyklad-96" />
+        <module name="przyklad-53" />
+        <module name="przyklad-54" />
+        <module name="przyklad-gatling" />
+        <module name="example" />
+        <module name="przyklad-66" />
+        <module name="przyklad-67" />
+        <module name="przyklad-68" />
+        <module name="przyklad-69" />
+        <module name="test-invoice" />
+        <module name="line-counter" />
+        <module name="przyklad-60" />
+        <module name="przyklad-61" />
+        <module name="przyklad-62" />
+        <module name="przyklad-63" />
+        <module name="przyklad-64" />
+        <module name="przyklad-65" />
+        <module name="przyklad-junit" />
+        <module name="przyklad-77" />
+        <module name="przyklad-78" />
+        <module name="przyklad-79" />
+        <module name="przyklad-70" />
+        <module name="przyklad-71" />
+        <module name="przyklad-72" />
+        <module name="przyklad-73" />
+        <module name="przyklad-74" />
+        <module name="przyklad-75" />
+        <module name="przyklad-76" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="przyklad-junit" options="-parameters" />
+    </option>
+  </component>
+</project>
