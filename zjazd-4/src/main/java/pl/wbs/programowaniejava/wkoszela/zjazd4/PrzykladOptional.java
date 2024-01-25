@@ -20,7 +20,7 @@ public class PrzykladOptional {
 
     private static Optional<Cat> findSecuredCatByName(String name){
         Cat cat = new Cat(name);
-        return Optional.of(cat);
+        return Optional.of(null);
 
     }
 }
