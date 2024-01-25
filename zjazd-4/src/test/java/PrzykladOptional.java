@@ -26,7 +26,7 @@ public class PrzykladOptional {
     @Test
     public void givenNull_whenThrowsErrorOnCreate_thenCorrect() {
         String name = null;
-        assertThrows(NullPointerException.class, ()-> Optional.of(name));
+        assertThrows(NullPointerException.class, () -> Optional.of(name));
     }
 
     // But in case we expect some null values, we can use the ofNullable() method:
@@ -82,7 +82,7 @@ public class PrzykladOptional {
     // Why filter?
 
     @Test
-    public void whenFiltersWithoutOptional_thenCorrect(){
+    public void whenFiltersWithoutOptional_thenCorrect() {
         assertTrue(priceIsInRange1(new Modem(10.0)));
         assertFalse(priceIsInRange1(new Modem(9.9)));
         assertFalse(priceIsInRange1(new Modem(null)));
@@ -91,11 +91,15 @@ public class PrzykladOptional {
     }
 
     @Test
-    public void whenFiltersWithOptional_thenCorrect(){
-        // TODO: Students
+    public void whenFiltersWithOptional_thenCorrect() {
+        assertTrue(priceIsInRange2(new Modem(10.0)));
+        assertFalse(priceIsInRange2(new Modem(9.9)));
+        assertFalse(priceIsInRange2(new Modem(null)));
+        assertFalse(priceIsInRange2(new Modem(15.5)));
+        assertFalse(priceIsInRange2(null));
     }
 
-    public boolean priceIsInRange1(Modem modem) {
+    private boolean priceIsInRange1(Modem modem) {
         boolean isInRange = false;
 
         if (modem != null && modem.getPrice() != null
@@ -106,6 +110,12 @@ public class PrzykladOptional {
         }
         return isInRange;
     }
+
+    private boolean priceIsInRange2(Modem modem) {
+
+        return Optional.ofNullable(modem).map(m -> m.getPrice()).filter(p -> p >= 10.0).filter(p -> p <= 15.0).isPresent();
+    }
+
 
     private class Modem {
         private Double price;
