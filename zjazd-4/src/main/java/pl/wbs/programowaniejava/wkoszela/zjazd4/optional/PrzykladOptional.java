@@ -1,4 +1,4 @@
-package pl.wbs.programowaniejava.wkoszela.zjazd4;
+package pl.wbs.programowaniejava.wkoszela.zjazd4.optional;
 
 
 import java.util.Optional;
