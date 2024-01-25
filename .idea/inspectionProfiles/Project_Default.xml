@@ -1,0 +1,11 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="MisspelledHeader" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="CUSTOM_HEADERS">
+        <header value="pl.wsb.programowaniejava.maciejgowin.przyklad.Main-Class" />
+        <header value="pl.wsb.programowaniejava.wkoszela.zjazd4.jar.przyklad48" />
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

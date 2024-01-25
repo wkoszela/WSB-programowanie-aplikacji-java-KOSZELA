@@ -15,6 +15,7 @@
         <module name="przyklad-cucumber" />
         <module name="przyklad-88" />
         <module name="przyklad-89" />
+        <module name="przyklad-01" />
         <module name="przyklad-test" />
         <module name="przyklad-80" />
         <module name="przyklad-81" />
@@ -27,7 +28,6 @@
         <module name="wroclaw-mappings" />
         <module name="zadanie-31" />
         <module name="zadanie-30" />
-        <module name="przyklad-01" />
         <module name="przyklad-55" />
         <module name="przyklad-56" />
         <module name="przyklad-57" />
@@ -44,6 +44,7 @@
         <module name="przyklad-53" />
         <module name="przyklad-54" />
         <module name="przyklad-gatling" />
+        <module name="zjazd4" />
         <module name="example" />
         <module name="przyklad-66" />
         <module name="przyklad-67" />
