@@ -8,12 +8,12 @@ public class PrzykladOptional {
 
     @Test
     public void whenCreatesEmptyOptional_thenCorrect() {
+        // Optional should be use only when returning object (recommendation)
         Optional<String> empty = Optional.empty();
         assertFalse(empty.isPresent());
     }
 
     // Note that we used the isPresent() method to check if there is a value inside the Optional object. A value is present only if we have created Optional with a non-null value. We’ll look at the isPresent() method in the next section.
-    //
     // We can also create an Optional object with the static method of():
     @Test
     public void givenNonNull_whenCreatesNonNullable_thenCorrect() {
