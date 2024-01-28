@@ -22,6 +22,7 @@ Zadanie wykonaj w parze
       •	**Osoba B**: W branchu "restore-branch" przywróć usunięty plik "new-file.txt" z poprzedniego commita. Zacommituj zmiany i następnie scal te zmiany z gałęzią główną (master).
 
 
+Przykładowy Commit Message (zalecenie)
 Identyfikator: Krotki opis operacji/zmian
 * Detal 1
 * Detal 2
