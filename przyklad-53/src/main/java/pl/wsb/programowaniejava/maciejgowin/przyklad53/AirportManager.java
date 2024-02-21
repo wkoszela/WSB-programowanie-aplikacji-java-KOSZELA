@@ -28,7 +28,7 @@ public class AirportManager implements AutoCloseable {
     }
 
     public Optional<Airport> getAirport(String code) throws SQLException {
-        ResultSet resultSet = statement.executeQuery(format("SELECT * FROM airports WHERE code = \"%s\"", code));
+        ResultSet resultSet = statement.executeQuery(format("SELECT * FROM airports WHERE code = \'%s\'", code));
         if (resultSet.next()) {
             return Optional.of(asAirport(resultSet));
         } else {
@@ -37,12 +37,12 @@ public class AirportManager implements AutoCloseable {
     }
 
     public void addAirport(Airport airport) throws SQLException {
-        statement.executeUpdate(format("INSERT INTO airports VALUES (\"%s\", \"%s\", %f, %f)",
+        statement.executeUpdate(format("INSERT INTO airports VALUES (\'%s\', \'%s\', %f, %f)",
                 airport.getCode(), airport.getName(), airport.getLatitude(), airport.getLongitude()));
     }
 
     public void updateAirport(Airport airport) throws SQLException {
-        statement.executeUpdate(format("UPDATE airports SET name = \"%s\", latitude = %f, longitude = %f WHERE code = \"%s\"",
+        statement.executeUpdate(format("UPDATE airports SET name = \'%s\', latitude = %f, longitude = %f WHERE code = \'%s\'",
                 airport.getName(), airport.getLatitude(), airport.getLongitude(), airport.getCode()));
     }
 
