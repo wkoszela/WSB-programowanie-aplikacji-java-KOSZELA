@@ -10,13 +10,12 @@ public class Main {
     public static void main(String[] args) {
         try {
             // Class.forName("com.mysql.jdbc.Driver");
-            Class.forName("com.mysql.cj.jdbc.Driver");
+            Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
             System.out.printf("Failed to load connector: %s%n", e.getMessage());
         }
 
-        try (Connection connection = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/booking_system", "root", "root")) {
+        try (Connection connection = DriverManager.getConnection("jdbc:postgresql://localhost:3306/booking_system", "postgres", "password")) {
 
             try (Statement statement = connection.createStatement()) {
                 ResultSet resultSet = statement.executeQuery("SELECT * FROM airports");
