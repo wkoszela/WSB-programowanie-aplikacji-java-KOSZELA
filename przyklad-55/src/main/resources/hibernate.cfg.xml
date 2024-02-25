@@ -5,23 +5,23 @@
     <session-factory>
 
         <property name = "hibernate.dialect">
-            org.hibernate.dialect.MySQLDialect
+            org.hibernate.dialect.PostgreSQLDialect
         </property>
 
         <property name = "hibernate.connection.driver_class">
-            com.mysql.jdbc.Driver
+            org.postgresql.Driver
         </property>
 
         <property name = "hibernate.connection.url">
-            jdbc:mysql://localhost/booking_system
+            jdbc:postgresql://localhost:3306/booking_system
         </property>
 
         <property name = "hibernate.connection.username">
-            root
+            postgres
         </property>
 
         <property name = "hibernate.connection.password">
-            root
+            password
         </property>
 
         <mapping resource = "Airport.hbm.xml"/>
