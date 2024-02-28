@@ -14,7 +14,7 @@ public class Configuration {
     private static final String SCHEMA_FILENAME = "schema.sql";
 
     public static Connection getConnection() throws SQLException {
-        return DriverManager.getConnection("jdbc:mysql://localhost:3306/booking_system", "root", "root");
+        return DriverManager.getConnection("jdbc:postgresql://localhost:3306/booking_system", "postgres", "password");
     }
 
     public static String getSchemaSql() {

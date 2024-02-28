@@ -17,7 +17,7 @@ public class Main {
             CustomerManager customerManager = new CustomerManager(connection);
 
             // Delete customers
-            customerManager.deleteCustomers();
+//            customerManager.deleteCustomers();
 
             // List customers
             System.out.printf("Check (1): %s%n", customerManager.getCustomers());
