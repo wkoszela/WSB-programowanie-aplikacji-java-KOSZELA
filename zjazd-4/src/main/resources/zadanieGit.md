@@ -3,11 +3,11 @@ Zadanie wykonaj w parze
 1. Klonowanie i Dodawanie Zmian:
 
       •	**Osoba A:** Po sklonowaniu repozytorium zdalnego o nazwie "example-repo" utwórz nową gałąź o nazwie "my-feature". W tej gałęzi stwórz plik o nazwie "new-feature.txt", dodaj kilka linii tekstu, a następnie zacommituj te zmiany.
-      •	**Osoba B**: Następnie, sprawdź, czy istnieją nowe zmiany w zdalnym repozytorium. Następnie przełącz się na gałąź "my-feature" i dodaj kolejne zmiany do pliku "new-feature.txt". Zacommituj zmiany i wypchnij je na zdalne repozytorium.
+      •	**Osoba B**: Sprawdź, czy istnieją nowe zmiany w zdalnym repozytorium. Przełącz się na gałąź "my-feature" i dodaj kolejne zmiany do pliku "new-feature.txt". Zacommituj zmiany i wypchnij je na zdalne repozytorium.
 
 2.	Rozgałęzianie i Scalanie:
       •	**Osoba A**: W gałęzi "feature-branch" dodaj nowy plik o nazwie "feature.txt", dodaj kilka linii tekstu i zacommituj zmiany. Następnie przełącz się na gałąź główną (master) i dodaj inny plik o nazwie "main.txt" z innymi zmianami. Zacommituj te zmiany.
-      •	**Osoba B**: Następnie, przełącz się z powrotem na gałąź "feature-branch" i spróbuj scalić zmiany z gałęzi głównej. Rozwiąż konflikty, jeśli takie występują.
+      •	**Osoba B**: Przełącz się z powrotem na gałąź "feature-branch" i spróbuj scalić zmiany z gałęzi głównej. Rozwiąż konflikty, jeśli takie występują.
 
 3.  Rozwiązanie Konfliktu:
       •	**Osoba A**: W pliku "new-file.txt" zmień jedną linijkę tekstu, na przykład, dodając swoje imię.
